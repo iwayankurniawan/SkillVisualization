@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html style="height:100%">
+  <head>
+    <meta charset="utf-8">
+    <title>Visualization</title>
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"><link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+
+    <div class="container">
+      <div  id="graph" class="row">
+      </div>
+      <div class="row">
+        <div id="Title" class="col">
+          <h1>Project 1
+          <br>Individual Skill Visualization</h1>
+          <p style="font-weight:bold;">Developed by I Wayan Kurniawan</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-8">
+          <p>This is a Visualization graph to form a best group based on Programing Skill, Drawing Skill, UX Evaluation Skill, Data Analysis, and Team Work. The Y axis will show to you the level of Team work based on collaboration, communication and Code Repository. And for the X axis, you can choose what value you want to see by click a button on right side. If you want to get a detail for a person, just move your mouse to the circle and wait for a moment</p>
+        </div>
+        <div  class="col-sm-4">
+          <button id="programmingSkill" type="button" class="btn btn-primary my-2">Programming Skill</button>
+          <button id="drawingSkill" type="button" class="btn btn-primary my-2">Drawing Skill</button>
+          <button id="userEvaluationSkill" type="button" class="btn btn-primary my-2">User Evaluation Skill</button>
+          <button id="statisticalSkill" type="button" class="btn btn-primary my-2">Data and Statistical Skill</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="javascript.js"></script>
+
+
+  </body>
+</html>
